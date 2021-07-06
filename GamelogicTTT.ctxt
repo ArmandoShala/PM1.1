@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GamelogicTTT
+comment0.text=\r\n\ In\ this\ class\ the\ logic\ is\ implemented\ to\ check\ if\ the\ current\ user\ has\ won\ or\ not.\ \r\n\ Different\ methods\ have\ been\ created\ to\ check\ the\ individual\ fields\ regarding\ to\ their\ dependencies\ to\ one\ another.\ \ \r\n\ \r\n\ @author\ Gruppe2\ IT20ta_WIN\r\n\ @version\ 2020-09-26\r\n
+comment1.params=currentField\ fieldToCheck
+comment1.target=boolean\ didCurrentPlayerWin(PlayingField,\ java.lang.String)
+comment1.text=\r\n\ Checks\ vertically,\ horizontally\ and\ diagonally\ for\ 3\ same\ symbols\ in\ a\ row.\ If\ that's\ the\ case,\ current\ player\ wins\r\n\ @param\ currentField\ -\ describes\ the\ field\ given\ by\ the\ playground\ \r\n\ @param\ fieldToCheck\ -\ describes\ the\ field\ that\ is\ set\ by\ the\ current\ player\r\n\ @return\ true,\ if\ the\ current\ player\ has\ won\r\n
+comment2.params=field\ fieldToCheck
+comment2.target=boolean\ checkVerticalFields(PlayingField,\ java.lang.String)
+comment2.text=\r\n\ Checks\ vertical\ fields\ for\ same\ symbol.\ If\ there\ are\ 3\ in\ a\ row,\ current\ player\ wins\r\n\ @param\ field\ -\ describes\ the\ field\ given\ by\ the\ playground\ \r\n\ @param\ fieldToCheck\ -\ describes\ the\ field\ that\ is\ set\ by\ the\ current\ player\r\n\ @return\ true,\ if\ there\ are\ 3\ in\ a\ row\ (columnwise)\r\n
+comment3.params=field\ fieldToCheck
+comment3.target=boolean\ checkHorizontalFields(PlayingField,\ java.lang.String)
+comment3.text=\r\n\ Checks\ horizontal\ fields\ for\ same\ symbol.\ If\ there\ are\ 3\ in\ a\ row,\ current\ player\ wins\r\n\ @param\ field\ -\ describes\ the\ field\ given\ by\ the\ playground\ \r\n\ @param\ fieldToCheck\ -\ describes\ the\ field\ that\ is\ set\ by\ the\ current\ player\r\n\ @return\ true,\ if\ there\ are\ 3\ in\ a\ row\ (rowwise)\r\n
+comment4.params=field\ fieldToCheck
+comment4.target=boolean\ checkDiagonalFields(PlayingField,\ java.lang.String)
+comment4.text=\r\n\ Checks\ diagonal\ fields\ for\ same\ symbol.\ If\ there\ are\ 3\ in\ a\ row,\ current\ player\ wins\r\n\ @param\ field\ -\ describes\ the\ field\ given\ by\ the\ playground\ \r\n\ @param\ fieldToCheck\ -\ describes\ the\ field\ that\ is\ set\ by\ the\ current\ player\r\n\ @return\ true,\ if\ there\ are\ 3\ in\ a\ row\ (in\ a\ diagonal\ way)\r\n
+numComments=5
